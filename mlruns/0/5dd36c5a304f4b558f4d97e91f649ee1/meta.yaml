@@ -1,0 +1,15 @@
+artifact_uri: file:///app/genre_classification/mlruns/0/5dd36c5a304f4b558f4d97e91f649ee1/artifacts
+end_time: 1761085539266
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5dd36c5a304f4b558f4d97e91f649ee1
+run_name: debonair-midge-532
+run_uuid: 5dd36c5a304f4b558f4d97e91f649ee1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761085453670
+status: 4
+tags: []
+user_id: root
