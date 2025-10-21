@@ -1,0 +1,15 @@
+artifact_uri: file:///app/genre_classification/mlruns/0/af71406896df4b33a2bbcc97317ab656/artifacts
+end_time: 1761086360195
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af71406896df4b33a2bbcc97317ab656
+run_name: languid-pug-295
+run_uuid: af71406896df4b33a2bbcc97317ab656
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761086354590
+status: 4
+tags: []
+user_id: root
