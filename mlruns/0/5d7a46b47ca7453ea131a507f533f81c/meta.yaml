@@ -1,0 +1,15 @@
+artifact_uri: file:///app/genre_classification/mlruns/0/5d7a46b47ca7453ea131a507f533f81c/artifacts
+end_time: 1761084322930
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d7a46b47ca7453ea131a507f533f81c
+run_name: enthused-colt-170
+run_uuid: 5d7a46b47ca7453ea131a507f533f81c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761084316971
+status: 4
+tags: []
+user_id: root
