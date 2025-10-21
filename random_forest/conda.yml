@@ -13,6 +13,3 @@ dependencies:
   - mlflow=2.8.1
   - pip:
       - wandb==0.16.4
-      - numpy==1.26.4
-      - setuptools<81
-      - databricks-cli==0.18.0
