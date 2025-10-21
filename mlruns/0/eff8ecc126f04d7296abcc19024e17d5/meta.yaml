@@ -1,0 +1,15 @@
+artifact_uri: file:///app/genre_classification/mlruns/0/eff8ecc126f04d7296abcc19024e17d5/artifacts
+end_time: 1761086029111
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eff8ecc126f04d7296abcc19024e17d5
+run_name: aged-carp-536
+run_uuid: eff8ecc126f04d7296abcc19024e17d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761086024141
+status: 4
+tags: []
+user_id: root

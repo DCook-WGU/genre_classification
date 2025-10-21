@@ -64,7 +64,7 @@ def go(config: DictConfig):
             "main",
             parameters={
                 "reference_artifact": config["data"]["reference_dataset"],
-                "sample_artifact": "data_test.csv:latest",
+                "sample_artifact": "preprocessed_data.csv:latest",
                 "ks_alpha": config["data"]["ks_alpha"],
             },
         )
@@ -119,7 +119,7 @@ def go(config: DictConfig):
             os.path.join(root_path, "evaluate"),
             "main",
             parameters={
-                "model_data": "model_export:latest",
+                "model_data":  f"{config['random_forest_pipeline']['export_artifact']}:latest",
                 "test_data": "data_test.csv:latest",
             },
         )

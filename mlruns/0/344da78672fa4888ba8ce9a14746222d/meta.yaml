@@ -1,0 +1,15 @@
+artifact_uri: file:///app/genre_classification/mlruns/0/344da78672fa4888ba8ce9a14746222d/artifacts
+end_time: 1761085986187
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 344da78672fa4888ba8ce9a14746222d
+run_name: sedate-bear-107
+run_uuid: 344da78672fa4888ba8ce9a14746222d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761085982084
+status: 4
+tags: []
+user_id: root
