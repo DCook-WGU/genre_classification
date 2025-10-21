@@ -63,7 +63,7 @@ def go(config: DictConfig):
             os.path.join(root_path, "check_data"),
             "main",
             parameters={
-                "reference_artifact": "data_train.csv:latest",
+                "reference_artifact": config["data"]["reference_dataset"],
                 "sample_artifact": "data_test.csv:latest",
                 "ks_alpha": config["data"]["ks_alpha"],
             },

@@ -12,3 +12,4 @@ dependencies:
       - hydra-joblib-launcher==1.1.2
       - databricks-cli==0.18.0    # fixes the import crash caused by outdated course work files
       - setuptools<81             # silences pkg_resources deprecation
+      - protobuf==3.20.3
