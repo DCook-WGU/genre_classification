@@ -1,0 +1,15 @@
+artifact_uri: file:///app/genre_classification/mlruns/0/d61bcfe9acc0461bad20506c1581eee6/artifacts
+end_time: 1761084182714
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d61bcfe9acc0461bad20506c1581eee6
+run_name: polite-cow-755
+run_uuid: d61bcfe9acc0461bad20506c1581eee6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761084084987
+status: 4
+tags: []
+user_id: root

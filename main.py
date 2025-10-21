@@ -59,7 +59,7 @@ def go(config: DictConfig):
         ## YOUR CODE HERE: call the check_data step
         #pass
 
-        _ mlflow.run(
+        _ = mlflow.run(
             os.path.join(root_path, "check_data"),
             "main",
             parameters={
