@@ -1,0 +1,15 @@
+artifact_uri: file:///app/genre_classification/mlruns/0/93f5adddd1a44d7fb7fb9025a17cc80e/artifacts
+end_time: 1761086567225
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93f5adddd1a44d7fb7fb9025a17cc80e
+run_name: righteous-owl-995
+run_uuid: 93f5adddd1a44d7fb7fb9025a17cc80e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761086561969
+status: 4
+tags: []
+user_id: root
