@@ -1,0 +1,15 @@
+artifact_uri: file:///app/genre_classification/mlruns/0/d5db4761121048649c5d88121ffbd56c/artifacts
+end_time: 1761171211756
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5db4761121048649c5d88121ffbd56c
+run_name: abrasive-pig-572
+run_uuid: d5db4761121048649c5d88121ffbd56c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761171119605
+status: 4
+tags: []
+user_id: root
