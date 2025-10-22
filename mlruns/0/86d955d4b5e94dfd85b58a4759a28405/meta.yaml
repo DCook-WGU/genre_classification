@@ -1,0 +1,15 @@
+artifact_uri: file:///app/genre_classification/mlruns/0/86d955d4b5e94dfd85b58a4759a28405/artifacts
+end_time: 1761171836514
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86d955d4b5e94dfd85b58a4759a28405
+run_name: crawling-donkey-721
+run_uuid: 86d955d4b5e94dfd85b58a4759a28405
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761171667541
+status: 4
+tags: []
+user_id: root
