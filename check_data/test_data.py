@@ -128,7 +128,8 @@ def test_kolmogorov_smirnov(data, ks_alpha):
 
 
         #ts, p_value = scipy.stats.ks_2samp(sample1[col], sample2[col])
-        ts, p_value = scipy.stats.ks_2samp(s1[col], s2[col])
+        #ts, p_value = scipy.stats.ks_2samp(s1[col], s2[col])
+        ts, p_value = scipy.stats.ks_2samp(s1, s2)
         
         # Fail if p_value is NaN (shouldn't happen after cleaning)
         assert not np.isnan(p_value), f"NaN p-value for column: {col}"
