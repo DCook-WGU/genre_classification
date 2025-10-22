@@ -1,0 +1,109 @@
+{
+    "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.19",
+    "heartbeatAt": "2025-10-22T20:26:10.006637",
+    "startedAt": "2025-10-22T20:26:09.016572",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "raw_data.parquet:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "preprocessed_data",
+        "--artifact_description",
+        "Preprocessed Data"
+    ],
+    "state": "running",
+    "program": "/app/genre_classification/preprocess/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "preprocess/run.py",
+    "git": {
+        "remote": "https://github.com/DCook-WGU/genre_classification.git",
+        "commit": "1b53eb52d47ade1d47da38f1f92b7c9ef408e93a"
+    },
+    "email": "dcoo230@wgu.edu",
+    "root": "/app/genre_classification",
+    "host": "d4b95b8d4017",
+    "username": "root",
+    "executable": "/opt/miniconda/envs/mlflow-9e7ce704939688d1bc342c33c9f4a201c199e382/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3299.9959999999996,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3299.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.996,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 34.077213287353516
+        }
+    },
+    "memory": {
+        "total": 31.29412841796875
+    }
+}
