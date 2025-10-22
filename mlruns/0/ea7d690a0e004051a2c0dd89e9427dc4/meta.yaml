@@ -1,0 +1,15 @@
+artifact_uri: file:///app/genre_classification/mlruns/0/ea7d690a0e004051a2c0dd89e9427dc4/artifacts
+end_time: 1761173128066
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ea7d690a0e004051a2c0dd89e9427dc4
+run_name: worried-wolf-577
+run_uuid: ea7d690a0e004051a2c0dd89e9427dc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761172995310
+status: 3
+tags: []
+user_id: root
