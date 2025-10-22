@@ -1,0 +1,15 @@
+artifact_uri: file:///app/genre_classification/mlruns/0/61132f0d6c814c5daf9622d9c1016d43/artifacts
+end_time: 1761087303904
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61132f0d6c814c5daf9622d9c1016d43
+run_name: auspicious-crane-134
+run_uuid: 61132f0d6c814c5daf9622d9c1016d43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761087237136
+status: 4
+tags: []
+user_id: root
