@@ -6,7 +6,9 @@ import pandas as pd
 import wandb
 import mlflow.sklearn
 import matplotlib.pyplot as plt
-from sklearn.metrics import roc_auc_score, plot_confusion_matrix
+#from sklearn.metrics import roc_auc_score, plot_confusion_matrix
+from skilearn.metrics import roc_auc_score, ConfusionMatrixDisplay, RocCurveDisplay
+
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
@@ -39,6 +41,8 @@ def go(args):
     run.summary["AUC"] = score
 
     logger.info("Computing confusion matrix")
+    
+    '''
     fig_cm, sub_cm = plt.subplots(figsize=(10, 10))
     plot_confusion_matrix(
         pipe,
@@ -49,6 +53,7 @@ def go(args):
         values_format=".1f",
         xticks_rotation=90,
     )
+    
     fig_cm.tight_layout()
 
     run.log(
@@ -56,7 +61,39 @@ def go(args):
             "confusion_matrix": wandb.Image(fig_cm)
         }
     )
+    '''
 
+    ### Modernizing confusion matrix
+
+    fig_cm, sub_cm = plt.subplots(figsize=(10, 10))
+
+    # New API (replaces plot_confusion_matrix)
+    disp = ConfusionMatrixDisplay.from_estimator(
+        pipe,
+        X_test[used_columns],
+        y_test,
+        normalize="true",   # same behavior as before
+        ax=sub_cm,
+    )
+
+    # Match the old formatting
+    sub_cm.set_title("Confusion Matrix")
+    sub_cm.set_xticklabels(sub_cm.get_xticklabels(), rotation=90)
+
+    # Re-format cell text to one decimal place (like values_format=".1f")
+    for text in disp.text_.ravel():
+        try:
+            text.set_text(f"{float(text.get_text()):.1f}")
+        except ValueError:
+            pass  # skip labels that aren't numbers
+        text.set_fontsize(8)
+
+    fig_cm.tight_layout()
+
+    # Log to W&B
+    run.log({"confusion_matrix": wandb.Image(fig_cm)})
+
+    plt.close(fig_cm)  # tidy up figure resources
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
