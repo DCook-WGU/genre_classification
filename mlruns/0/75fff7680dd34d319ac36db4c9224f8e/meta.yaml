@@ -1,0 +1,15 @@
+artifact_uri: file:///app/genre_classification/mlruns/0/75fff7680dd34d319ac36db4c9224f8e/artifacts
+end_time: 1761176431421
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75fff7680dd34d319ac36db4c9224f8e
+run_name: abundant-stag-748
+run_uuid: 75fff7680dd34d319ac36db4c9224f8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761176289062
+status: 4
+tags: []
+user_id: root

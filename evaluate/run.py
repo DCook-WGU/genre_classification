@@ -7,7 +7,7 @@ import wandb
 import mlflow.sklearn
 import matplotlib.pyplot as plt
 #from sklearn.metrics import roc_auc_score, plot_confusion_matrix
-from skilearn.metrics import roc_auc_score, ConfusionMatrixDisplay, RocCurveDisplay
+from sklearn.metrics import roc_auc_score, ConfusionMatrixDisplay, RocCurveDisplay
 
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
